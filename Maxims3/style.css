@@ -38,6 +38,20 @@ h5{
     
 }
 
+h3{
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+      
+
+    color:rgb(200,200,200);
+    font-size:18px;
+    position: absolute;
+    top: 700px; left: 700px;}
 
 h6{
     font-family: "Saira", sans-serif;
