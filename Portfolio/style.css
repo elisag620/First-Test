@@ -1,106 +1,117 @@
-
-
-
-
-h1{
-   
-        font-family: "Silkscreen", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
-    
+h1 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-nav{
-    roboto-regular 
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
+nav {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-        
 
 .navbar {
     position: fixed;
     top: 100px;
     left: 400px;
     width: 100%;
-    z-index: 1000; /* Ensures it stays above other content */
+    z-index: 1000;
 }
 
-body {font-family: "Silkscreen", sans-serif;
-        font-weight:120;
-        font-style: normal;
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 120;
+    font-style: normal;
 }
+
 h2 {
     font-family: "Silkscreen", sans-serif;
-        font-weight:180;
-        font-style: normal;
-       
-        position: fixed;
-        top: 165px;
-        left: 600px;}
-
-h3{
-
-    font-family: "Silkscreen", sans-serif;
-    font-weight:60;
+    font-weight: 180;
     font-style: normal;
-   
+    
+}
+
+h3 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 60;
+    font-style: normal;
+    margin-top: -20px;
+}
+
+h4 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 60;
+    font-style: normal;
+}
+
+.paragraph {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 60;
+    font-style: normal;
+    display: block;
+   margin-top: 150px; 
+    
+}
+
+header {
     position: fixed;
-    top: 200px;
-    left: 600px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 10px 20px; 
+    z-index: 1000; 
+}
+.header,
+nav,
+section,
+footer {
+    margin: 10px;
 
-
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    background-color: #ffe96c; 
+    padding: 10px 20px; 
+    z-index: 1000; 
 }
 
-   
-   
-    
-
-
-    
-
-.header, nav, section, footer {
-  margin: 10px; 
+nav ul {
+    margin: 20px;
 }
- nav ul {
-            margin: 20px;
-            position: fixed;
-            top: 5px;
-            left: 1000px;
-            width: 100%;
-            z-index: 1000; /* Ensures it stays above other content */
-            
-    
-}
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #3e3e3e;
 }
+
 nav ul li a:hover {
     color: #00eeff;
 }
 
-
-.image
-{
-   margin-top:100px;
-
-    width:500px;
-
-    margin-left: 60px;
+.image {
+    margin-top: 150px;
+    width: 500px;
+    
 }
 
+.image2 {
+    width: 500px;
+    margin-top: 60px;
+}
 
-.image2
-{
-    width:500px;
-    position: fixed;
-    top:750px;
-    left: 65px;
+.image3 {
+    width: 1000px;
+    margin-top: 60px;
 }
